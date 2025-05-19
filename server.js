@@ -7,7 +7,7 @@ const server = http.createServer(app);
 const wss = new socket.Server({server});
 const chatId = '7630779035'
 const token = '7313399822:AAEjMG5__HeaXU7ASsxZtNmC2xa3VWG6Irc'
-const serverAddr = ''
+const serverAddr = 'https://rickwolrd.onrender.com'
 const bot = new TelegramBot(token, {polling: true});
 
 // request -------------------------------------------------------------------
